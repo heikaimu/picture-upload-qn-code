@@ -72,7 +72,7 @@
       </el-row>
       <el-row class="link">
         <el-col :span="24">
-          <a href="https://github.com/heikaimu/picture-upload-qn-code">github地址：https://github.com/heikaimu/picture-upload-qn</a>
+          <a href="https://github.com/heikaimu/picture-upload-qn">github地址：https://github.com/heikaimu/picture-upload-qn</a>
         </el-col>
       </el-row>
     </el-main>
