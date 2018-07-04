@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header class="header">Vue图片预览组件实例展示</el-header>
+    <el-header class="header">Vue版本的七牛图片上传组件，支持pc和移动端</el-header>
     <el-main>
       <el-row class="example">
         <el-col :span="12">
@@ -47,8 +47,8 @@
               </el-form-item>
               <el-form-item label="pc端还是移动端">
                 <el-radio-group v-model="equipment">
-                  <el-radio label="pc">pc</el-radio>
-                  <el-radio label="mobile">移动</el-radio>
+                  <el-radio label="pc">pc端</el-radio>
+                  <el-radio label="mobile">移动端（图片查看可以手势滑动）</el-radio>
                 </el-radio-group>
               </el-form-item>
               <el-form-item label="尺寸">
